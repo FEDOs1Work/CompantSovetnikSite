@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юридические услуги - Профессиональная правовая помощь</title>
+    <meta name="description" content="Профессиональные юридические услуги. Консультации, представительство в суде, составление документов.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <link rel="stylesheet" href="style_banner2.css">
+    <script src="backend.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <div class="logo">
+                    <h2 class="mb-0">Компания Советник&nbsp;</h2>
+                </div>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hero">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="display-3 fw-bold">Профессиональные юридические услуги</h1>
+                    <p class="lead">Решаем сложные правовые вопросы. Защищаем ваши интересы в суде и за его пределами.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-lg">Получить консультацию</a>
+                        <a href="#services" class="btn btn-outline-light btn-lg">Наши услуги</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">О нашей компании</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">Мы - команда опытных юристов с многолетним стажем работы в различных областях права. Наша миссия - обеспечить доступность качественных юридических услуг для каждого клиента.</p>
+                        <div class="row stats">
+                            <div class="col-md-4 col-sm-6 mb-4">
+                                <div class="stat-item text-center">
+                                    <h3 class="display-4 text-primary">10+</h3>
+                                    <p class="h5">Лет опыта</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 mb-4">
+                                <div class="stat-item text-center">
+                                    <h3 class="display-4 text-primary">500+</h3>
+                                    <p class="h5">Выигранных дел</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 mb-4">
+                                <div class="stat-item text-center">
+                                    <h3 class="display-4 text-primary">1000+</h3>
+                                    <p class="h5">Довольных клиентов</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="row services-grid">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="service-card h-100">
+                            <div class="service-icon">
+                                <i class="bi bi-shield-check display-4 text-primary"></i>
+                            </div>
+                            <h3>Консультации</h3>
+                            <p>Бесплатные первичные консультации по любым правовым вопросам</p>
+                            <a href="#contact" class="service-link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="service-card h-100">
+                            <div class="service-icon">
+                                <i class="bi bi-file-earmark-text display-4 text-primary"></i>
+                            </div>
+                            <h3>Составление документов</h3>
+                            <p>Подготовка исковых заявлений, договоров, жалоб и других документов</p>
+                            <a href="#contact" class="service-link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="service-card h-100">
+                            <div class="service-icon">
+                                <i class="bi bi-building display-4 text-primary"></i>
+                            </div>
+                            <h3>Представительство в суде</h3>
+                            <p>Полное ведение дела в суде от подачи иска до исполнения решения</p>
+                            <a href="#contact" class="service-link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="service-card h-100">
+                            <div class="service-icon">
+                                <i class="bi bi-search display-4 text-primary"></i>
+                            </div>
+                            <h3>Правовой анализ</h3>
+                            <p>Детальный анализ документов и ситуации с рекомендациями</p>
+                            <a href="#contact" class="service-link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Свяжитесь с нами</h2>
+                <div class="row contact-content">
+                    <div class="col-lg-6 mb-4">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <h3><i class="bi bi-telephone text-primary me-2"></i>Телефон</h3>
+                                <p><a href="tel:+79000000000">8 (900) 000-00-00</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <h3><i class="bi bi-whatsapp text-primary me-2"></i>WhatsApp</h3>
+                                <p><a href="https://wa.me/79000000000">Написать в WhatsApp</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <h3><i class="bi bi-envelope text-primary me-2"></i>Email</h3>
+                                <p><a href="mailto:info@urconsultant.ru">info@urconsultant.ru</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <h3><i class="bi bi-geo-alt text-primary me-2"></i>Адрес</h3>
+                                <p>г. Москва, ул. Юридическая, д. 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="contact-form" id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Ваше имя *</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Введите ваше имя" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Телефон *</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Введите номер телефона" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Введите email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Сообщение *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Опишите ваш вопрос" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                <span class="spinner-border spinner-border-sm me-2 d-none" role="status" aria-hidden="true"></span>
+                                Отправить заявку
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h3>Компания Советник</h3>
+                    <p>Профессиональные юридические услуги для физических и юридических лиц</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4>Услуги</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#services">Консультации</a></li>
+                        <li><a href="#services">Составление документов</a></li>
+                        <li><a href="#services">Представительство в суде</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4>Контакты</h4>
+                    <p>8 (900) 000-00-00</p>
+                    <p>info@urconsultant.ru</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Компания Советник. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
